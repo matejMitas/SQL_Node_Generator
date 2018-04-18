@@ -7,7 +7,7 @@ Main executable file
 */
 
 const Source = require('./file.js');
-
+const Table = require('./table.js');
 
 
 
