@@ -1,0 +1,24 @@
+{
+  "name": "sql_node_generator",
+  "version": "0.0.1",
+  "description": "Simple data generator for SQL-type databases written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejMitas/SQL_Node_Generator.git"
+  },
+  "keywords": [
+    "node",
+    "sql",
+    "generator"
+  ],
+  "author": "Matej Mitas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matejMitas/SQL_Node_Generator/issues"
+  },
+  "homepage": "https://github.com/matejMitas/SQL_Node_Generator#readme"
+}
