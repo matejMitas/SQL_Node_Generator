@@ -3,13 +3,13 @@ Handling JSON input files
 @project: SQL Generator
 @brief: Handling JSON input files
 @author: Matej Mitas
-@file: SourceFile.js
+@file: file.js
 */
 
 const fs = require('fs');
 
  
-module.exports = class SourceFile {
+module.exports = class File {
 	// we load a JSON file, an directly parse
 	// it into JS string
 	constructor(path) {
