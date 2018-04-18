@@ -75,7 +75,7 @@ lands_json = JSON.parse(lands_json)
 console.log(lands_json.length);
 
 // vycistime soubor
-fs.writeFileSync("out.sql", "")
+fs.writeFileSync("output/out.sql", "")
 
 // delka zaznamu (deset zemi, deset oblasti a deset druhu)
 var max = 100;
