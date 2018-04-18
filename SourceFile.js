@@ -8,7 +8,8 @@ Handling JSON input files
 
 const fs = require('fs');
 
-class SourceFile {
+ 
+module.exports = class SourceFile {
 	// we load a JSON file, an directly parse
 	// it into JS string
 	constructor(path) {
@@ -70,10 +71,3 @@ class SourceFile {
 		}
 	}
 }
-
-var myFile = new SourceFile('data/gen_lands.json');
-console.log(myFile.len);
-console.log(myFile.getValue(4));
-console.log(myFile.isUsed(3));
-
-
